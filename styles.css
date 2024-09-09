@@ -1,0 +1,270 @@
+body {
+	font-family: verdana;
+	background: #d7d3bd;
+}
+
+#wrapper {
+	margin: 0px auto;
+	width: 1000px;
+	background: white;
+	box-shadow: 0px 0px 5px;
+}
+
+#toplogo {
+	width: 1000px;
+	height: 84px;
+	background: url('images/toplogo_01.png');
+}
+
+#topwinbar {
+	width: 1000px;
+	height: 22px;
+	background: url('images/bluemenubg.png');
+}
+
+span#breadcrumbs {
+	font-family: sans-serif;
+	font-size: 12px;
+	vertical-align: 6px;
+}
+
+#topmenubg {
+	width: 1000px;
+	height: 23px;
+	background: #f5f2dd;
+}
+
+ul.topmenuitems {
+	margin: 0px;
+	padding: 0px;
+	display: inline;
+	font-family: sans-serif;
+	font-size: 12px;
+	vertical-align: 6px;
+}
+
+li.topmenuitems {
+	display: inline-block;
+	margin-right: 10px;
+}
+
+ul.submenu {
+	position: absolute;
+	width: 200px;
+margin: 0;
+margin-top: -2px;
+padding: 0;
+display: none;
+visibility: hidden;
+background: #f5f2dd
+}
+
+ul.submenu:hover {
+display: block;
+visibility: visible;
+}
+
+li.subitem{
+	display: block;
+margin-top: 6px;
+margin-bottom: 2px;
+}
+
+a.menuitem:hover + ul.submenu {
+display: block;
+visibility: visible;
+}
+
+a {
+	color: black;
+} 
+
+a:hover {
+	color: #C4161C;
+} 
+
+#topbuttons {
+	width: 1000px;
+	height: 25px;
+	background: url('images/toplogo_04.png');
+}
+
+hr {
+	margin: 0px;
+}
+
+.article {
+	font-family: verdana;
+	font-size: 14px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 20px;
+}
+
+div.article a {
+  color: #C4161C; font-weight: bold;
+ text-decoration: none;
+}
+
+div.article a:hover {
+  color: red;
+}
+
+footer {
+	margin: 0px auto;
+	margin-top: 10px;
+	width: 1000px;
+	height: 50px;
+	background: #fbc800;
+	font-family: verdana;
+	font-size: 10px;
+}
+
+h1 {
+	color: #C4161C
+}
+
+h2 {
+	margin: 0px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 0px;
+	font-size: 16px;
+}
+
+h3 {
+	margin: 0px;
+	margin-top: 6px;
+	margin-bottom: 6px;
+	padding: 0px;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+div.center {
+  text-align: center;
+}
+
+/* Feedback form styles */
+
+form.feedback, label, input, textarea {
+  font-family: Verdana;
+  font-size: 10px;
+}
+
+.ffield {
+	display: block;
+	width: 100%;
+}
+.fdiv {
+	margin-top: 6px;
+	margin-bottom: 6px;
+}
+.finput {
+	width: 100%;
+	box-shadow: 0 0 5px #ccc;
+}
+.fbutton {
+	background: #ffa;
+	border: black 1px solid;
+}
+#errMsg {
+	display: none;
+}
+.frespOk {
+	color: green;
+	text-shadow: 0 0 2px;
+}
+.frespErr {
+	color: red;
+	text-shadow: 0 0 2px;
+}
+
+/* Articles styles */
+
+.articledate {
+        font-size: 8px;
+}
+
+.datemargin {
+  margin: 0px;
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+
+.articlehr {
+  border-style: none;
+  border-bottom-style: dashed;
+}
+
+a.nounderline {
+  text-decoration: none;
+}
+
+div.table {
+	border: black 1px solid;
+	font-size: 10px;
+	font-weight: bold;
+	width: 820px;
+	display: table;
+	border-collapse: collapse;
+}
+
+div.tablehdr {
+	background-color: yellow;
+	text-align: center;
+	display: table-row;
+	font-size: 12px;
+}
+
+div.tablehdr div.col1 {
+	display: table-cell;
+	width: 700px;	
+	border: black 1px solid;
+}
+
+div.tablehdr div.col2 {
+	display: table-cell;
+	width: 100px;	
+	border: black 1px solid;
+}
+
+div.tablerow {
+	border: black 1px solid;
+	background-color: white;
+	font-size: 10px;
+	font-weight: normal;
+	width: 820px;
+	display: table-row;
+}
+
+div.tablerow div.col1 {
+	display: table-cell;
+	width: 700px;	
+	border: black 1px solid;
+	padding-right: 4px;
+	padding-left: 4px;
+}
+
+div.tablerow div.col2 {
+	display: table-cell;
+	width: 100px;	
+	border: black 1px solid;
+	text-align: center;
+	vertical-align: middle;
+}
+
+div.tablerow h3 {
+	display: inline;
+	font-weight: normal;
+}
+
+div.table a {
+	color: black;
+}
+
+div.shortdescr {
+	font-size: 9px;
+	color: #aaa;
+	margin: 0px;
+}
